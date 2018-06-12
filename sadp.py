@@ -14,6 +14,14 @@ import statsmodels.api as sm
 # from scipy.stats.stats import pearsonr
 # import seaborn as sns
 
+"""
+# Convert index to datetime
+start = pd.to_datetime(1416726000, unit='s')
+end = pd.to_datetime(1421838000, unit='s')
+index = pd.date_range(start, end, freq='H')
+
+"""
+
 '''
 Load data and get all the possible information
 '''
